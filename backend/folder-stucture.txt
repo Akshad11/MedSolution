@@ -1,0 +1,34 @@
+backend/
+│
+├── src/
+│   ├── app.js
+│   ├── server.js
+│   │
+│   ├── config/
+│   │   ├── db.js
+│   │   └── env.js
+│   │
+│   ├── models/
+│   │   └── User.model.js
+│   │
+│   ├── controllers/
+│   │   └── auth.controller.js
+│   │
+│   ├── routes/
+│   │   └── auth.routes.js
+│   │
+│   ├── middlewares/
+│   │   ├── auth.middleware.js
+│   │   ├── role.middleware.js
+│   │   └── error.middleware.js
+│   │
+│   ├── utils/
+│   │   ├── jwt.js
+│   │   └── hash.js
+│   │
+│   └── seed/
+│       └── admin.seed.js
+│
+├── .env
+├── package.json
+└── README.md
